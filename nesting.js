@@ -157,7 +157,7 @@ var myCar = {
 //Code Here
 let recordCleaner = () => {
   for(let i = 0; i < myCar.accidents.length; i++){
-    if(myCar.accidents[i].atFaultForAccident = true){
+    if(myCar.accidents[i].atFaultForAccident == true){
       myCar.accidents[i].atFaultForAccident = false;
     }
   }
